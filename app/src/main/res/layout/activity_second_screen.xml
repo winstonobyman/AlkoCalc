@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondScreen"
+    style="@style/AppTheme.Background">
+
+    <TextView
+        android:id="@+id/tv_say_weight_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="224dp"
+        app:layout_constraintBottom_toTopOf="@+id/et_weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/say_weight_sex" />
+
+    <RadioGroup
+        android:id="@+id/r_sex"
+        android:layout_width="183dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="28dp"
+        android:orientation="horizontal"
+        android:checkedButton="@id/r_sex_w"
+        app:layout_constraintBottom_toTopOf="@+id/b_next2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_weight">
+
+        <RadioButton
+            android:id="@+id/r_sex_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sex_W"
+            style="@style/AppTheme.RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/r_sex_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96dp"
+            android:text="@string/sex_M"
+            style="@style/AppTheme.RadioButton"
+            app:layout_constraintBottom_toBottomOf="@+id/r_sex_w"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/r_sex_w"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/b_next2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="107dp"
+        android:onClick="onNext2Click"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_sex" />
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:ems="10"
+        android:hint="@string/input_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/r_sex"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_say_weight_sex" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
