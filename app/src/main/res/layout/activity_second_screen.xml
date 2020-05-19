@@ -54,9 +54,10 @@
 
     <Button
         android:id="@+id/b_next2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="107dp"
+        style="@style/AppTheme.Button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="70dp"
         android:onClick="onNext2Click"
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,8 +67,9 @@
 
     <EditText
         android:id="@+id/et_weight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_rect"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
         android:layout_marginBottom="43dp"
         android:ems="10"
         android:hint="@string/input_name"

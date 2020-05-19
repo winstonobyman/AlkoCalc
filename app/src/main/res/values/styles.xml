@@ -11,9 +11,15 @@
     <style name="AppTheme.Background">
         <item name="android:background">@color/colorMajorLightBlue</item>
     </style>
-
+    x`
     <style name="AppTheme.RadioButton">
         <item name="android:buttonTint">@color/colorMajorPink</item>
+    </style>
+
+    <style name="AppTheme.Button">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/round_rect_shape</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
