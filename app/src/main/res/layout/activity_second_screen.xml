@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SecondScreen"
-    style="@style/AppTheme.Background">
+    android:background="@mipmap/bg_change_screen">
 
     <TextView
         android:id="@+id/tv_say_weight_sex"
+        style="@style/AppTheme.TextView.Hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -57,7 +58,7 @@
         style="@style/AppTheme.Button"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="70dp"
+        android:layout_marginBottom="45dp"
         android:onClick="onNext2Click"
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"

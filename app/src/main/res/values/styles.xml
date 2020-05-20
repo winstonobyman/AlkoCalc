@@ -1,17 +1,29 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.Background">
-        <item name="android:background">@color/colorMajorLightBlue</item>
+    <style name="AppTheme.TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:inputType"> textNoSuggestions</item>
     </style>
-    x`
+
+    <style name="AppTheme.TextView.Hello">
+        <item name="android:textColor">@color/colorMajorPink</item>
+    </style>
+
+    <style name="AppTheme.ChooseIcon">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_margin">32dp</item>
+    </style>
+
     <style name="AppTheme.RadioButton">
         <item name="android:buttonTint">@color/colorMajorPink</item>
     </style>

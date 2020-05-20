@@ -42,10 +42,10 @@ public class SecondScreen extends AppCompatActivity {
             SharedPreferences.Editor editor = prefs.edit();
             editor.putInt("weight", weight);
             editor.putBoolean("isMale", isMale);
+            editor.apply();
 
             Intent intent = new Intent(this, ThirdScreen.class);
             startActivity(intent);
-            editor.apply();
         }
     }
 }

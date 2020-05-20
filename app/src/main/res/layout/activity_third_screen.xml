@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ThirdScreen"
-    style="@style/AppTheme.Background">
+    android:background="@mipmap/bg_third_screen">
 
     <TextView
         android:id="@+id/tv_you_can_use"
-        android:layout_width="wrap_content"
+        style="@style/AppTheme.TextView.Hello"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
         android:text="@string/you_can_use"
@@ -22,7 +23,7 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         style="@style/AppTheme.Button"
-        android:layout_margin="70dp"
+        android:layout_margin="50dp"
         android:onClick="onLetsGoClick"
         android:text="@string/lets_go"
         app:layout_constraintBottom_toBottomOf="parent"

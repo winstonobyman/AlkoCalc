@@ -3,14 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mainlayout"
-    android:background="@drawable/round_rect_shape"
+    android:background="@mipmap/bg_first_screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    style="@style/AppTheme.Background"
     tools:context=".FirstScreen">
 
     <TextView
         android:id="@+id/tv_hello"
+        style="@style/AppTheme.TextView.Hello"
+        android:textStyle="bold"
+        android:textSize="60sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -20,6 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        style="@style/AppTheme.TextView.Hello"
         android:id="@+id/tv_we_need_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,13 +36,13 @@
         android:id="@+id/b_sc1_next"
         android:layout_width="250dp"
         android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
         android:background="@drawable/round_rect_shape"
-        android:layout_marginBottom="70dp"
         android:onClick="onClickBsc1Next"
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_we_need_info"
         app:layout_constraintVertical_bias="1.0" />

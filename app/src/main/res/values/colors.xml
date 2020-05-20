@@ -6,4 +6,7 @@
     <color name="colorMajorLightBlue">#AED6DC</color>
     <color name="colorMajorPink">#ff9a8d</color>
     <color name="colorMajorDarkBlue">#4a536b</color>
+    <color name="white">#D8FFFFFF</color>
+    <color name="invisible">#00FFFFFF</color>
+    <color name="black">#000000</color>
 </resources>

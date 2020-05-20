@@ -285,7 +285,104 @@
     </declare-styleable><declare-styleable name="StateListDrawableItem">
         
         <attr name="android:drawable"/>
-    </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:1.1.3$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:1.1.3" from-dependency="true" generated-set="androidx.constraintlayout:constraintlayout:1.1.3$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res"><file path="C:\Users\Ivandroid\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res\values\values.xml" qualifiers=""><attr format="boolean" name="barrierAllowsGoneWidgets"/><attr format="enum" name="barrierDirection">
+    </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.gridlayout:gridlayout:1.0.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\.gradle\caches\transforms-2\files-2.1\b584664e59dd8e569e836c623d2294be\gridlayout-1.0.0\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.gridlayout:gridlayout:1.0.0" from-dependency="true" generated-set="androidx.gridlayout:gridlayout:1.0.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\.gradle\caches\transforms-2\files-2.1\b584664e59dd8e569e836c623d2294be\gridlayout-1.0.0\res"><file path="C:\Users\Ivandroid\.gradle\caches\transforms-2\files-2.1\b584664e59dd8e569e836c623d2294be\gridlayout-1.0.0\res\values\values.xml" qualifiers=""><declare-styleable name="GridLayout">
+
+        
+
+
+        
+        <attr name="orientation">
+
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="rowCount"/>
+        
+        <attr format="integer" name="columnCount"/>
+        
+        <attr format="boolean" name="useDefaultMargins"/>
+        
+        <attr name="alignmentMode">
+
+            
+            <enum name="alignBounds" value="0"/>
+            
+            <enum name="alignMargins" value="1"/>
+        </attr>
+        
+        <attr format="boolean" name="rowOrderPreserved"/>
+        
+        <attr format="boolean" name="columnOrderPreserved"/>
+    </declare-styleable><declare-styleable name="GridLayout_Layout">
+
+        
+
+
+        
+
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        
+        <attr name="android:layout_margin"/>
+        
+        <attr name="android:layout_marginLeft"/>
+        
+        <attr name="android:layout_marginTop"/>
+        
+        <attr name="android:layout_marginRight"/>
+        
+        <attr name="android:layout_marginBottom"/>
+
+        
+
+        
+        <attr format="integer" name="layout_row"/>
+        
+        <attr format="integer" min="1" name="layout_rowSpan"/>
+        
+        <attr format="float" name="layout_rowWeight"/>
+        
+        <attr format="integer" name="layout_column"/>
+        
+        <attr format="integer" min="1" name="layout_columnSpan"/>
+        
+        <attr format="float" name="layout_columnWeight"/>
+        
+        <attr name="layout_gravity">
+
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+    </declare-styleable><dimen name="default_gap">8dip</dimen></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:1.1.3$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:1.1.3" from-dependency="true" generated-set="androidx.constraintlayout:constraintlayout:1.1.3$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res"><file path="C:\Users\Ivandroid\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\res\values\values.xml" qualifiers=""><attr format="boolean" name="barrierAllowsGoneWidgets"/><attr format="enum" name="barrierDirection">
         <enum name="left" value="0"/>
         <enum name="right" value="1"/>
         <enum name="top" value="2"/>
@@ -3703,7 +3800,7 @@
     <item name="android:textAllCaps">false</item>
     <item name="android:textSize">14sp</item>
     <item name="android:letterSpacing">0.00714285714</item>
-  </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res"/><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\build\generated\res\rs\debug"/><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res"><file name="calculate_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\calculate_screen.png" qualifiers="" type="drawable"/><file name="calculate_screen_design" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\calculate_screen_design.png" qualifiers="" type="drawable"/><file name="calculate_screen_main_pllita" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\calculate_screen_main_pllita.png" qualifiers="" type="drawable"/><file name="calculate_screen_move_back_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\calculate_screen_move_back_button.png" qualifiers="" type="drawable"/><file name="calculate_screen_move_next_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\calculate_screen_move_next_button.png" qualifiers="" type="drawable"/><file name="calendar_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\calendar_screen.png" qualifiers="" type="drawable"/><file name="calendar_screen_design" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\calendar_screen_design.png" qualifiers="" type="drawable"/><file name="calendar_screen_kalendar_text" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\calendar_screen_kalendar_text.png" qualifiers="" type="drawable"/><file name="calendar_screen_move_back_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\calendar_screen_move_back_button.png" qualifiers="" type="drawable"/><file name="change_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen.png" qualifiers="" type="drawable"/><file name="change_screen_design" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen_design.png" qualifiers="" type="drawable"/><file name="change_screen_ellipse5" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen_ellipse5.png" qualifiers="" type="drawable"/><file name="change_screen_ellipse6" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen_ellipse6.png" qualifiers="" type="drawable"/><file name="change_screen_ellipse7" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen_ellipse7.png" qualifiers="" type="drawable"/><file name="change_screen_ellipse8" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen_ellipse8.png" qualifiers="" type="drawable"/><file name="change_screen_input_weight_window" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen_input_weight_window.png" qualifiers="" type="drawable"/><file name="change_screen_m" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen_m.png" qualifiers="" type="drawable"/><file name="change_screen_move_back_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen_move_back_button.png" qualifiers="" type="drawable"/><file name="change_screen_move_next_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen_move_next_button.png" qualifiers="" type="drawable"/><file name="change_screen_nameyourweight" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen_nameyourweight.png" qualifiers="" type="drawable"/><file name="change_screen_w" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_screen_w.png" qualifiers="" type="drawable"/><file name="ellipse_1" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\ellipse_1.png" qualifiers="" type="drawable"/><file name="ellipse_16" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\ellipse_16.png" qualifiers="" type="drawable"/><file name="ellipse_2" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\ellipse_2.png" qualifiers="" type="drawable"/><file name="ellipse_3" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\ellipse_3.png" qualifiers="" type="drawable"/><file name="fdis_dalee_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\fdis_dalee_button.png" qualifiers="" type="drawable"/><file name="fdis_design" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\fdis_design.png" qualifiers="" type="drawable"/><file name="fdis_input_window_weight" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\fdis_input_window_weight.png" qualifiers="" type="drawable"/><file name="fdis_input_yourwait" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\fdis_input_yourwait.png" qualifiers="" type="drawable"/><file name="fdis_man_woman" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\fdis_man_woman.png" qualifiers="" type="drawable"/><file name="fdis_moveback_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\fdis_moveback_button.png" qualifiers="" type="drawable"/><file name="first_data_input_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\first_data_input_screen.png" qualifiers="" type="drawable"/><file name="helloscreen_dalee_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\helloscreen_dalee_button.png" qualifiers="" type="drawable"/><file name="helloscreen_design" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\helloscreen_design.png" qualifiers="" type="drawable"/><file name="helloscreen_hello" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\helloscreen_hello.png" qualifiers="" type="drawable"/><file name="helloscreen_rectangle" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\helloscreen_rectangle.png" qualifiers="" type="drawable"/><file name="helloscreen_weneedtoknow" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\helloscreen_weneedtoknow.png" qualifiers="" type="drawable"/><file name="hello_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\hello_screen.png" qualifiers="" type="drawable"/><file name="icon_feather_settings" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\icon_feather_settings.png" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="image_1" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\image_1.png" qualifiers="" type="drawable"/><file name="main_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\main_screen.png" qualifiers="" type="drawable"/><file name="main_screen_change_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\main_screen_change_button.png" qualifiers="" type="drawable"/><file name="main_screen_design" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\main_screen_design.png" qualifiers="" type="drawable"/><file name="main_screen_diary_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\main_screen_diary_button.png" qualifiers="" type="drawable"/><file name="main_screen_doza_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\main_screen_doza_button.png" qualifiers="" type="drawable"/><file name="main_screen_made_by_mvp" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\main_screen_made_by_mvp.png" qualifiers="" type="drawable"/><file name="main_screen_mainplita" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\main_screen_mainplita.png" qualifiers="" type="drawable"/><file name="main_screen_recepie_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\main_screen_recepie_button.png" qualifiers="" type="drawable"/><file name="main_screen_search_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\main_screen_search_button.png" qualifiers="" type="drawable"/><file name="main_screen_time_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\main_screen_time_button.png" qualifiers="" type="drawable"/><file name="movingto_buttton_moveback_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\movingto_buttton_moveback_button.png" qualifiers="" type="drawable"/><file name="movingto_design" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\movingto_design.png" qualifiers="" type="drawable"/><file name="movingto_movingnext" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\movingto_movingnext.png" qualifiers="" type="drawable"/><file name="movingto_poexali_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\movingto_poexali_button.png" qualifiers="" type="drawable"/><file name="moving_to_alko_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\moving_to_alko_screen.png" qualifiers="" type="drawable"/><file name="path6" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\path6.png" qualifiers="" type="drawable"/><file name="path_1" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\path_1.png" qualifiers="" type="drawable"/><file name="path_2" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\path_2.png" qualifiers="" type="drawable"/><file name="path_3" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\path_3.png" qualifiers="" type="drawable"/><file name="path_4" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\path_4.png" qualifiers="" type="drawable"/><file name="path_5" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\path_5.png" qualifiers="" type="drawable"/><file name="path_6" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\path_6.png" qualifiers="" type="drawable"/><file name="path_7" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\path_7.png" qualifiers="" type="drawable"/><file name="recepe1_screen_ellipse_15" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe1_screen_ellipse_15.png" qualifiers="" type="drawable"/><file name="recepe2_screen_ellipse_16" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe2_screen_ellipse_16.png" qualifiers="" type="drawable"/><file name="recepe2_screen_ellipse_4" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe2_screen_ellipse_4.png" qualifiers="" type="drawable"/><file name="recepe3_screen_ellipse16" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe3_screen_ellipse16.png" qualifiers="" type="drawable"/><file name="recepe3_screen_path_6" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe3_screen_path_6.png" qualifiers="" type="drawable"/><file name="recepe3_screen_path_7" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe3_screen_path_7.png" qualifiers="" type="drawable"/><file name="recepefive_screen_design" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepefive_screen_design.png" qualifiers="" type="drawable"/><file name="recepefive_screen_lorem" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepefive_screen_lorem.png" qualifiers="" type="drawable"/><file name="recepesix_screen_lorem" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepesix_screen_lorem.png" qualifiers="" type="drawable"/><file name="recepe_one_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_one_screen.png" qualifiers="" type="drawable"/><file name="recepe_screen_lorem" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_screen_lorem.png" qualifiers="" type="drawable"/><file name="recepe_screen_lorem_1" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_screen_lorem_1.png" qualifiers="" type="drawable"/><file name="recepe_screen_lorem_2" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_screen_lorem_2.png" qualifiers="" type="drawable"/><file name="recepe_screen_lorem_3" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_screen_lorem_3.png" qualifiers="" type="drawable"/><file name="recepe_screen_lorem_4" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_screen_lorem_4.png" qualifiers="" type="drawable"/><file name="recepe_screen_move_back_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_screen_move_back_button.png" qualifiers="" type="drawable"/><file name="recepe_screen_move_back_button_1" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_screen_move_back_button_1.png" qualifiers="" type="drawable"/><file name="recepe_screen_move_back_button_2" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_screen_move_back_button_2.png" qualifiers="" type="drawable"/><file name="recepe_screen_move_back_button_3" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_screen_move_back_button_3.png" qualifiers="" type="drawable"/><file name="recepe_screen_move_back_button_4" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_screen_move_back_button_4.png" qualifiers="" type="drawable"/><file name="recepe_screen_move_back_button_5" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepe_screen_move_back_button_5.png" qualifiers="" type="drawable"/><file name="recepie_move_back_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recepie_move_back_button.png" qualifiers="" type="drawable"/><file name="recipe_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recipe_screen.png" qualifiers="" type="drawable"/><file name="recipe_screen_40_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recipe_screen_40_button.png" qualifiers="" type="drawable"/><file name="recipe_screen_beer_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recipe_screen_beer_button.png" qualifiers="" type="drawable"/><file name="recipe_screen_coctails_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recipe_screen_coctails_button.png" qualifiers="" type="drawable"/><file name="recipe_screen_design" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recipe_screen_design.png" qualifiers="" type="drawable"/><file name="recipe_screen_driver_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recipe_screen_driver_button.png" qualifiers="" type="drawable"/><file name="recipe_screen_ekzo_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recipe_screen_ekzo_button.png" qualifiers="" type="drawable"/><file name="recipe_screen_hangover_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recipe_screen_hangover_button.png" qualifiers="" type="drawable"/><file name="recipe_screen_move_back_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recipe_screen_move_back_button.png" qualifiers="" type="drawable"/><file name="recipe_screen_recepie_text" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recipe_screen_recepie_text.png" qualifiers="" type="drawable"/><file name="recipe_screen_wine_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\recipe_screen_wine_button.png" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable-v24\ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="activity_choose_function" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\layout\activity_choose_function.xml" qualifiers="" type="layout"/><file name="activity_first_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\layout\activity_first_screen.xml" qualifiers="" type="layout"/><file name="activity_second_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\layout\activity_second_screen.xml" qualifiers="" type="layout"/><file name="activity_third_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\layout\activity_third_screen.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-hdpi\ic_launcher_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-mdpi\ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xhdpi\ic_launcher_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#6200EE</color><color name="colorPrimaryDark">#3700B3</color><color name="colorAccent">#03DAC5</color><color name="colorMajorLightBlue">#AED6DC</color><color name="colorMajorPink">#ff9a8d</color><color name="colorMajorDarkBlue">#4a536b</color></file><file path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="app_bar_height">180dp</dimen><dimen name="fab_margin">16dp</dimen><dimen name="text_margin">16dp</dimen></file><file path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Алкогольный калькулятор</string><string name="title_activity_forth_screen">ForthScreen</string><string name="large_text">
+  </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res"/><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\build\generated\res\rs\debug"/><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res"><file name="bg_white_rect" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\bg_white_rect.xml" qualifiers="" type="drawable"/><file name="change_function_diary_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\change_function_diary_button.png" qualifiers="" type="drawable"/><file name="choose_function_change_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\choose_function_change_button.png" qualifiers="" type="drawable"/><file name="choose_function_dose_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\choose_function_dose_button.png" qualifiers="" type="drawable"/><file name="choose_function_recipe_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\choose_function_recipe_button.png" qualifiers="" type="drawable"/><file name="choose_function_search_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\choose_function_search_button.png" qualifiers="" type="drawable"/><file name="choose_function_time_button" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\choose_function_time_button.png" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="round_rect_shape" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\round_rect_shape.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable-v24\ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="activity_choose_function" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\layout\activity_choose_function.xml" qualifiers="" type="layout"/><file name="activity_first_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\layout\activity_first_screen.xml" qualifiers="" type="layout"/><file name="activity_second_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\layout\activity_second_screen.xml" qualifiers="" type="layout"/><file name="activity_third_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\layout\activity_third_screen.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-hdpi\ic_launcher_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-mdpi\ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xhdpi\ic_launcher_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#6200EE</color><color name="colorPrimaryDark">#3700B3</color><color name="colorAccent">#03DAC5</color><color name="colorMajorLightBlue">#AED6DC</color><color name="colorMajorPink">#ff9a8d</color><color name="colorMajorDarkBlue">#4a536b</color><color name="white">#D8FFFFFF</color><color name="black">#000000</color><color name="invisible">#00FFFFFF</color></file><file path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="app_bar_height">180dp</dimen><dimen name="fab_margin">16dp</dimen><dimen name="text_margin">16dp</dimen></file><file path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Алкогольный калькулятор</string><string name="title_activity_forth_screen">ForthScreen</string><string name="large_text">
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
@@ -3791,19 +3888,31 @@
         "On the layout level, design your app layout to minimize opportunities for interference. "
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
-    </string><string name="action_settings">Settings</string><string name="helllo">Привет!</string><string name="we_need_info">Нам нужно\nузнать о тебе\nпобольше</string><string name="next">Далее</string><string name="say_weight_sex">Скажи свой вес\nи пол</string><string name="you_can_use">Теперь ты можешь\nперейти к\nкалькулятору</string><string name="lets_go">Поехали</string><string name="sex_W">Ж</string><string name="sex_M">М</string><string name="input_name">Твой вес</string></file><file path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </string><string name="action_settings">Settings</string><string name="helllo">Привет!</string><string name="we_need_info">Нам нужно\nузнать о тебе\nпобольше</string><string name="next">Далее</string><string name="say_weight_sex">Скажи свой вес\nи пол</string><string name="you_can_use">Теперь ты можешь\nперейти к\nкалькулятору</string><string name="lets_go">Поехали</string><string name="sex_W">Ж</string><string name="sex_M">М</string><string name="input_name">Твой вес</string><string name="bookmark_placeholder">Напиши что-нибудь.\nНапример: \"не звони...\"</string><string name="done">Готово</string><string name="change_weight_sex">Изменение пола и веса</string><string name="made_by_mvp">Made By MVP</string><string name="notes">Заметки</string></file><file path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-    </style><style name="AppTheme.Background">
-        <item name="android:background">@color/colorMajorLightBlue</item>
     </style><style name="AppTheme.RadioButton">
         <item name="android:buttonTint">@color/colorMajorPink</item>
+    </style><style name="AppTheme.Button">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/round_rect_shape</item>
     </style><style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-    </style><style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/><style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/></file></source><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\build\generated\res\rs\debug"/><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
+    </style><style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/><style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/><style name="AppTheme.ChooseIcon">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_margin">32dp</item>
+    </style><style name="AppTheme.TextView">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:inputType"> textNoSuggestions</item>
+    </style><style name="AppTheme.TextView.Hello">
+        <item name="android:textColor">@color/colorMajorPink</item>
+    </style></file><file name="activity_change_attrs" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\layout\activity_change_attrs.xml" qualifiers="" type="layout"/><file path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\values\refs.xml" qualifiers=""/><file name="bg_white_rect_bordered" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\bg_white_rect_bordered.xml" qualifiers="" type="drawable"/><file name="main_screen_background" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\drawable\main_screen_background.png" qualifiers="" type="drawable"/><file name="activity_starter" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\layout\activity_starter.xml" qualifiers="" type="layout"/><file name="bg_change_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-hdpi\bg_change_screen.png" qualifiers="hdpi-v4" type="mipmap"/><file name="bg_rasscehet_screen_vivod" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xhdpi\bg_rasscehet_screen_vivod.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="bg_choose_function" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-mdpi\bg_choose_function.png" qualifiers="mdpi-v4" type="mipmap"/><file name="bg_first_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xhdpi\bg_first_screen.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="bg_choose_function" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xhdpi\bg_choose_function.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="bg_third_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xhdpi\bg_third_screen.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="bg_choose_function" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-hdpi\bg_choose_function.png" qualifiers="hdpi-v4" type="mipmap"/><file name="bg_change_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-mdpi\bg_change_screen.png" qualifiers="mdpi-v4" type="mipmap"/><file name="bg_third_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-hdpi\bg_third_screen.png" qualifiers="hdpi-v4" type="mipmap"/><file name="bg_first_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-hdpi\bg_first_screen.png" qualifiers="hdpi-v4" type="mipmap"/><file name="bg_rasscehet_screen_vivod" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-mdpi\bg_rasscehet_screen_vivod.png" qualifiers="mdpi-v4" type="mipmap"/><file name="bg_change_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-xhdpi\bg_change_screen.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="bg_third_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-mdpi\bg_third_screen.png" qualifiers="mdpi-v4" type="mipmap"/><file name="bg_first_screen" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-mdpi\bg_first_screen.png" qualifiers="mdpi-v4" type="mipmap"/><file name="bg_rasscehet_screen_vivod" path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\res\mipmap-hdpi\bg_rasscehet_screen_vivod.png" qualifiers="hdpi-v4" type="mipmap"/></source><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\build\generated\res\rs\debug"/><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
         <attr format="reference" name="listLayout"/>
@@ -4840,6 +4949,37 @@
         <attr format="string" name="initialActivityCount"/>
         
         <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
+    </declare-styleable><declare-styleable name="GridLayout">
+
+        
+
+
+        
+        <attr name="orientation">
+
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="rowCount"/>
+        
+        <attr format="integer" name="columnCount"/>
+        
+        <attr format="boolean" name="useDefaultMargins"/>
+        
+        <attr name="alignmentMode">
+
+            
+            <enum name="alignBounds" value="0"/>
+            
+            <enum name="alignMargins" value="1"/>
+        </attr>
+        
+        <attr format="boolean" name="rowOrderPreserved"/>
+        
+        <attr format="boolean" name="columnOrderPreserved"/>
     </declare-styleable><declare-styleable name="ViewStubCompat">
         
         <attr name="android:layout"/>
@@ -5078,6 +5218,72 @@
         <attr format="reference" name="theme"/>
         
         <attr name="android:theme"/>
+    </declare-styleable><declare-styleable name="GridLayout_Layout">
+
+        
+
+
+        
+
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        
+        <attr name="android:layout_margin"/>
+        
+        <attr name="android:layout_marginLeft"/>
+        
+        <attr name="android:layout_marginTop"/>
+        
+        <attr name="android:layout_marginRight"/>
+        
+        <attr name="android:layout_marginBottom"/>
+
+        
+
+        
+        <attr format="integer" name="layout_row"/>
+        
+        <attr format="integer" min="1" name="layout_rowSpan"/>
+        
+        <attr format="float" name="layout_rowWeight"/>
+        
+        <attr format="integer" name="layout_column"/>
+        
+        <attr format="integer" min="1" name="layout_columnSpan"/>
+        
+        <attr format="float" name="layout_columnWeight"/>
+        
+        <attr name="layout_gravity">
+
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
     </declare-styleable><declare-styleable name="BottomAppBar"><attr name="backgroundTint"/><attr name="fabAlignmentMode">
       
       <enum name="center" value="0"/>
