@@ -24,14 +24,14 @@ public class SecondScreen extends AppCompatActivity {
         RadioButton isMaleRb = (RadioButton) findViewById(R.id.r_sex_m);
         EditText ed = (EditText) findViewById(R.id.et_weight);
         boolean isMale = false;
-        int weight;
+        float weight;
 
         if (TextUtils.isEmpty(ed.getText())) {
             Toast toast = Toast.makeText(getApplicationContext(),
                     "Не забудь указать вес!", Toast.LENGTH_SHORT);
             toast.show();
         } else {
-            weight = Integer.parseInt(ed.getText().toString());
+            weight = Float.parseFloat(ed.getText().toString());
 
 
             if (isMaleRb.isChecked()) {
@@ -40,8 +40,8 @@ public class SecondScreen extends AppCompatActivity {
 
             SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
             SharedPreferences.Editor editor = prefs.edit();
-            editor.putInt("weight", weight);
-            editor.putBoolean("isMale", isMale);
+            editor.putFloat("weight", weight);
+            editor.putBoolean("male", isMale);
             editor.apply();
 
             Intent intent = new Intent(this, ThirdScreen.class);

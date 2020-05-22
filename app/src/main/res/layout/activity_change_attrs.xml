@@ -8,11 +8,11 @@
     android:background="@mipmap/bg_change_screen">
 
     <TextView
-        android:id="@+id/tv_change_weight_sex"
+        android:id="@+id/tv_change_weight_sex_change"
         style="@style/AppTheme.TextView.Hello"
-        android:background="@color/invisible"
         android:layout_marginTop="140dp"
         android:layout_marginBottom="224dp"
+        android:textColor="@color/colorMajorPink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/et_weight"
@@ -61,7 +61,7 @@
         android:layout_height="50dp"
         android:layout_marginBottom="45dp"
         android:onClick="onBackClick"
-        android:text="@string/next"
+        android:text="@string/save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -76,11 +76,11 @@
         android:layout_marginBottom="43dp"
         android:ems="10"
         android:hint="@string/input_name"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         app:layout_constraintBottom_toTopOf="@+id/r_sex"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_change_weight_sex" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_change_weight_sex_change" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

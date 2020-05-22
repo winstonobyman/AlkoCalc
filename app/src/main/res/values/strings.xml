@@ -117,4 +117,11 @@
     <string name="you_have">У тебя:</string>
     <string name="back">Назад</string>
     <string name="sober_time">Время отрезвления:</string>
+    <string name="save">Сохранить</string>
+    <string name="per_mile">%1$.2f &#8240;</string>
+    <string name="sober_hours">%1$.1f часа</string>
+    <string name="drink_result_time_info">%1$d мл \nКрепостью  %2$d %%</string>
+    <string name="to_menu">В меню</string>
+    <string name="in_percent">В процентах</string>
+    <string name="in_mls">В миллилитрах</string>
 </resources>

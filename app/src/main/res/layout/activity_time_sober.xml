@@ -65,7 +65,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.549"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="225dp" />
+            tools:layout_editor_absoluteY="225dp"
+            android:hint="@string/in_percent" />
 
         <TextView
             android:id="@+id/tv_which_volume"
@@ -100,7 +101,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.549"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="225dp" />
+            tools:layout_editor_absoluteY="225dp"
+            android:hint="@string/in_mls"/>
 
         <TextView
             android:id="@+id/is_eat"

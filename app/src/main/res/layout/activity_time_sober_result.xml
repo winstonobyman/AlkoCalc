@@ -16,7 +16,7 @@
         android:layout_marginBottom="50dp"
         android:width="250dp"
         android:height="50dp"
-        android:text="@string/back"
+        android:text="@string/to_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/which_strength"
+            android:id="@+id/which_drink_info"
             style="@style/AppTheme.TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             tools:layout_editor_absoluteY="688dp" />
 
         <TextView
-            android:id="@+id/strength"
+            android:id="@+id/drink_info"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="8dp"
@@ -60,7 +60,7 @@
             android:background="@drawable/bg_white_rect_bordered"
             android:ems="10"
             android:inputType="textMultiLine"
-            android:lines="1"
+            android:lines="2"
             android:padding="10dp"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
@@ -106,7 +106,7 @@
 
 
         <TextView
-            android:id="@+id/which_volume"
+            android:id="@+id/which_per_mile"
             style="@style/AppTheme.TextView"
             android:layout_marginTop="32dp"
             android:layout_width="match_parent"
@@ -122,7 +122,7 @@
 
 
         <TextView
-            android:id="@+id/volume"
+            android:id="@+id/per_mile"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="8dp"
@@ -132,7 +132,7 @@
             android:background="@drawable/bg_white_rect_bordered"
             android:ems="10"
             android:inputType="textMultiLine"
-            android:lines="2"
+            android:lines="1"
             android:padding="10dp"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"

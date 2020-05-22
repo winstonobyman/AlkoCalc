@@ -1,14 +1,11 @@
 package com.example.alkocalc;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-
-import java.sql.Time;
 
 public class ChooseFunction extends AppCompatActivity {
 

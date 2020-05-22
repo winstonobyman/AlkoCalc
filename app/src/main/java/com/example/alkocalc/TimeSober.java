@@ -11,6 +11,9 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import com.example.alkocalc.R;
+import com.example.alkocalc.TimeSoberResult;
+
 public class TimeSober extends AppCompatActivity {
 
     @Override
