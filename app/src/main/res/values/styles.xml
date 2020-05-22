@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">25sp</item>
+        <item name="fontFamily">@font/type_mates_cera_round_pro_regular</item>
     </style>
 
     <style name="AppTheme.TextView">
@@ -26,6 +28,8 @@
 
     <style name="AppTheme.RadioButton">
         <item name="android:buttonTint">@color/colorMajorPink</item>
+        <item name="android:textColor">@color/colorMajorPink</item>
+        <item name="fontFamily">@font/type_mates_cera_round_pro_bold</item>
     </style>
 
     <style name="AppTheme.Button">

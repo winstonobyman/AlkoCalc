@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
-        android:text="@string/helllo"
+        android:text="@string/hello"
         app:layout_constraintEnd_toEndOf="@+id/tv_we_need_info"
         app:layout_constraintStart_toStartOf="@+id/tv_we_need_info"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,6 +24,7 @@
     <TextView
         style="@style/AppTheme.TextView.Hello"
         android:id="@+id/tv_we_need_info"
+        android:inputType="textMultiLine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -36,7 +37,7 @@
         android:id="@+id/b_sc1_next"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="45dp"
         android:background="@drawable/round_rect_shape"
         android:onClick="onClickBsc1Next"
         android:text="@string/next"

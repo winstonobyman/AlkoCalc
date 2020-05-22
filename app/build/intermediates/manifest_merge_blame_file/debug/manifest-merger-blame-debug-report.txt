@@ -11,7 +11,7 @@
 9-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:5:5-24:19
+11-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:5:5-25:19
 12        android:allowBackup="true"
 12-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,35 +29,38 @@
 20        android:testOnly="true"
 21        android:theme="@style/AppTheme" >
 21-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:11:9-40
-22        <activity android:name="com.example.alkocalc.Starter" />
-22-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:12:9-54
-22-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:12:19-42
-23        <activity android:name="com.example.alkocalc.ChangeAttrs" />
-23-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:13:9-49
-23-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:13:19-46
-24        <activity android:name="com.example.alkocalc.FirstScreen" />
+22        <activity android:name="com.example.alkocalc.TimeSoberResult" />
+22-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:12:9-62
+22-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:12:19-50
+23        <activity android:name="com.example.alkocalc.TimeSober" />
+23-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:13:9-47
+23-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:13:19-44
+24        <activity android:name="com.example.alkocalc.ChangeAttrs" />
 24-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:14:9-49
 24-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:14:19-46
-25        <activity android:name="com.example.alkocalc.ThirdScreen" />
+25        <activity android:name="com.example.alkocalc.FirstScreen" />
 25-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:15:9-49
 25-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:15:19-46
-26        <activity android:name="com.example.alkocalc.SecondScreen" />
-26-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:16:9-50
-26-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:16:19-47
-27        <activity android:name="com.example.alkocalc.ChooseFunction" >
-27-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:17:9-23:20
-27-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:17:19-49
-28            <intent-filter>
-28-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:18:13-22:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:19:17-69
-29-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:19:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:21:17-77
-31-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:21:27-74
-32            </intent-filter>
-33        </activity>
-34    </application>
-35
-36</manifest>
+26        <activity android:name="com.example.alkocalc.ThirdScreen" />
+26-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:16:9-49
+26-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:16:19-46
+27        <activity android:name="com.example.alkocalc.SecondScreen" />
+27-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:17:9-50
+27-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:17:19-47
+28        <activity android:name="com.example.alkocalc.ChooseFunction" >
+28-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:18:9-24:20
+28-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:18:19-49
+29            <intent-filter>
+29-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:20:17-69
+30-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:22:17-77
+32-->C:\Users\Ivandroid\AndroidStudioProjects\AlkoCalc\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>

@@ -20,7 +20,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.alkocalc.Starter" />
+        <activity android:name="com.example.alkocalc.TimeSoberResult" />
+        <activity android:name="com.example.alkocalc.TimeSober" />
         <activity android:name="com.example.alkocalc.ChangeAttrs" />
         <activity android:name="com.example.alkocalc.FirstScreen" />
         <activity android:name="com.example.alkocalc.ThirdScreen" />

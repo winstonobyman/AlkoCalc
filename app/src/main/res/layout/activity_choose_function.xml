@@ -12,6 +12,7 @@
 
     <ImageView
         android:id="@+id/imageButtonTime"
+        android:onClick="onTimeSoberClick"
         style="@style/AppTheme.ChooseIcon"
         android:layout_marginEnd="32dp"
         android:scaleType="fitCenter"

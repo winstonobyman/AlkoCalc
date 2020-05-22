@@ -22,8 +22,8 @@
 
     <RadioGroup
         android:id="@+id/r_sex"
-        android:layout_width="183dp"
-        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
         android:orientation="horizontal"
         android:checkedButton="@id/r_sex_w"

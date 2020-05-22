@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Starter"></activity>
+        <activity android:name=".TimeSoberResult"></activity>
+        <activity android:name=".TimeSober" />
         <activity android:name=".ChangeAttrs" />
         <activity android:name=".FirstScreen" />
         <activity android:name=".ThirdScreen" />

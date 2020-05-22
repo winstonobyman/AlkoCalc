@@ -8,6 +8,8 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 
+import java.sql.Time;
+
 public class ChooseFunction extends AppCompatActivity {
 
     @Override
@@ -24,6 +26,10 @@ public class ChooseFunction extends AppCompatActivity {
 
     public void onChangeClick(View view) {
         startActivity(new Intent(this, ChangeAttrs.class));
+    }
+
+    public void onTimeSoberClick(View view) {
+        startActivity(new Intent(this, TimeSober.class));
     }
 
 }
