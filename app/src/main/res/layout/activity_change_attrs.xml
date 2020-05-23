@@ -13,16 +13,17 @@
         android:layout_marginTop="140dp"
         android:layout_marginBottom="224dp"
         android:textColor="@color/colorMajorPink"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/et_weight"
+        app:layout_constraintBottom_toTopOf="@+id/et_weight2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/change_weight_sex" />
 
     <RadioGroup
-        android:id="@+id/r_sex"
+        android:id="@+id/r_sex2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
@@ -31,25 +32,25 @@
         app:layout_constraintBottom_toTopOf="@+id/b_next2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_weight">
+        app:layout_constraintTop_toBottomOf="@+id/et_weight2">
 
         <RadioButton
-            android:id="@+id/r_sex_w"
+            android:id="@+id/r_sex_w2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sex_W"
             style="@style/AppTheme.RadioButton"/>
 
         <RadioButton
-            android:id="@+id/r_sex_m"
+            android:id="@+id/r_sex_m2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="96dp"
             android:text="@string/sex_M"
             style="@style/AppTheme.RadioButton"
-            app:layout_constraintBottom_toBottomOf="@+id/r_sex_w"
+            app:layout_constraintBottom_toBottomOf="@+id/r_sex_w2"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/r_sex_w"
+            app:layout_constraintTop_toTopOf="@+id/r_sex_w2"
             app:layout_constraintVertical_bias="0.0" />
 
     </RadioGroup>
@@ -66,18 +67,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/r_sex" />
+        app:layout_constraintTop_toBottomOf="@+id/r_sex2" />
 
     <EditText
-        android:id="@+id/et_weight"
+        android:id="@+id/et_weight2"
         android:background="@drawable/bg_white_rect"
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:layout_marginBottom="43dp"
         android:ems="10"
         android:hint="@string/input_name"
+        android:textAlignment="center"
         android:inputType="numberDecimal"
-        app:layout_constraintBottom_toTopOf="@+id/r_sex"
+        app:layout_constraintBottom_toTopOf="@+id/r_sex2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_change_weight_sex_change" />

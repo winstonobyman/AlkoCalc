@@ -24,18 +24,28 @@ public class TimeSober extends AppCompatActivity {
 
     public void onTimeSoberCalculateClick(View view) {
         RadioButton eatenNo = findViewById(R.id.rb_eaten_no);
-        final EditText etStrength = findViewById(R.id.et_strength);
-        final EditText etVolume = findViewById(R.id.et_volume);
+        EditText etStrength = findViewById(R.id.et_strength);
+        EditText etVolume = findViewById(R.id.et_volume);
 
         if (TextUtils.isEmpty(etStrength.getText())) {
             Toast toast = Toast.makeText(getApplicationContext(),
                     "Не забудь указать крепость!", Toast.LENGTH_SHORT);
             toast.show();
+        } else if (Integer.parseInt(etStrength.getText().toString()) > 100 ||
+                Integer.parseInt(etStrength.getText().toString()) <= 0) {
+            Toast toast = Toast.makeText(getApplicationContext(),
+                    "Крепость от 0 до 100!", Toast.LENGTH_SHORT);
+            toast.show();
         } else if (TextUtils.isEmpty(etVolume.getText())) {
             Toast toast = Toast.makeText(getApplicationContext(),
                     "Не забудь указать объём!", Toast.LENGTH_SHORT);
             toast.show();
-        } else {
+        } else if (Integer.parseInt(etVolume.getText().toString()) == 0) {
+            Toast toast = Toast.makeText(getApplicationContext(),
+                    "Объём не должен быть 0!", Toast.LENGTH_SHORT);
+            toast.show();
+        }
+        else {
             int strength = Integer.parseInt(etStrength.getText().toString());
             int volume = Integer.parseInt(etVolume.getText().toString());
             boolean eaten = !eatenNo.isChecked();

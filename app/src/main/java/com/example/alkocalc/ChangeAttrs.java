@@ -17,12 +17,27 @@ public class ChangeAttrs extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_attrs);
+        EditText ed = (EditText) findViewById(R.id.et_weight2);
 
+        RadioButton rbMale = findViewById(R.id.r_sex_m2);
+        RadioButton rbWoman = findViewById(R.id.r_sex_w2);
+
+        SharedPreferences prefs = getSharedPreferences("prefs", MODE_PRIVATE);
+        float weight = prefs.getFloat("weight", (float) 0.0);
+        boolean male = prefs.getBoolean("male", false);
+
+        ed.setText(Float.toString(weight));
+
+        if (male) {
+            rbMale.setChecked(true);
+        } else {
+            rbWoman.setChecked(true);
+        }
     }
 
     public void onBackClick(View view)  {
-        RadioButton isMaleRb = (RadioButton) findViewById(R.id.r_sex_m);
-        EditText ed = (EditText) findViewById(R.id.et_weight);
+        RadioButton isMaleRb = (RadioButton) findViewById(R.id.r_sex_m2);
+        EditText ed = (EditText) findViewById(R.id.et_weight2);
         boolean isMale = false;
         float weight;
 

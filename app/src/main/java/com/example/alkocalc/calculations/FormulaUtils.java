@@ -2,6 +2,13 @@ package com.example.alkocalc.calculations;
 
 public class FormulaUtils {
 
+    public static int[] getHoursMinutes(float hours) {  // возвращает 0 - часы, 1 - минуты
+        int[] result = new int[2];
+        result[0] = (int)hours;
+        result[1] = Math.round((hours % 1) * 60);
+        return result;
+    }
+
     public static float round(float value, int places) {
         float scale = (float)Math.pow(10, places);
         return (float)(Math.round(value * scale) / scale);

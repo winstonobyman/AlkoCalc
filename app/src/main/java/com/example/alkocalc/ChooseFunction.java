@@ -29,4 +29,9 @@ public class ChooseFunction extends AppCompatActivity {
         startActivity(new Intent(this, TimeSober.class));
     }
 
+    public void onDoseDrunkClick(View view) {
+        startActivity(new Intent(this, DoseDrunk.class));
+    }
+
+
 }

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoseDrunkResult"
+    android:background="@mipmap/bg_time_sober">
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="onBackClick"
+        style="@style/AppTheme.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:width="250dp"
+        android:height="50dp"
+        android:text="@string/to_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/bg_white_rect"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/which_per_mile2"
+            style="@style/AppTheme.TextView"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/invisible"
+            android:ems="10"
+            android:padding="2dp"
+            android:text="@string/condition"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="688dp" />
+
+
+        <TextView
+            android:id="@+id/tv_per_mile_output"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/bg_white_rect_bordered"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:lines="1"
+            android:padding="10dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.549"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="225dp" />
+
+
+        <TextView
+            android:id="@+id/which_drink_info2"
+            style="@style/AppTheme.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/invisible"
+            android:ems="10"
+            android:layout_marginTop="24dp"
+            android:padding="2dp"
+            android:text="@string/you_need_to_drink"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="688dp" />
+
+        <TextView
+            android:id="@+id/tv_drink_info_output"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/bg_white_rect_bordered"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:lines="2"
+            android:padding="10dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.549"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="225dp" />
+
+
+        <TextView
+            android:id="@+id/sober_time_label2"
+            style="@style/AppTheme.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/invisible"
+            android:ems="10"
+            android:layout_marginTop="32dp"
+            android:padding="2dp"
+            android:text="@string/you_will_sober"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="688dp" />
+
+        <TextView
+            android:id="@+id/tv_sober_time_output"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/bg_white_rect_bordered"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:lines="1"
+            android:padding="10dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.549"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="225dp" />
+
+
+        <TextView
+            android:id="@+id/tv_write_diary"
+            style="@style/AppTheme.TextView"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/invisible"
+            android:ems="10"
+            android:padding="2dp"
+            android:text="@string/save_to_diary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <RadioGroup
+            android:id="@+id/rg_write_diary"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_diary_yes2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AppTheme.RadioButton"
+                android:layout_marginStart="64dp"
+                android:text="@string/Yes"/>
+
+            <RadioButton
+                android:id="@+id/rb_diary_no2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/No"
+                android:checked="true"
+                android:layout_marginStart="56dp"
+                style="@style/AppTheme.RadioButton"/>
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

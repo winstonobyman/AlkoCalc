@@ -48,7 +48,9 @@ public class TimeCalculator {
 
         this.r = (float)(male ? 0.7 : 0.6);
         this.d = (float)(eaten ? 0.7 : 0.9);
+        this.g = (float)(male ? 1 : 1.2);
 
+        this.soberTime = FormulaUtils.getSoberTime(this.c, this.g);
         this.volume = (int)Math.round((this.c * this.weight * this.r)/(this.d * 0.78 * this.percent));
     }
 

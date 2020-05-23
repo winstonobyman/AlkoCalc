@@ -105,7 +105,7 @@
     <string name="change_weight_sex">Изменение пола и веса</string>
     <string name="made_by_mvp">Made By MVP</string>
     <string name="notes">Заметки</string>
-    <string name="calculate">Рассчиать</string>
+    <string name="calculate">Рассчитать</string>
     <string name="strength">Крепость в %</string>
     <string name="you_drink">Ты выпил(а):</string>
     <string name="what_strength">Какая крепость \n напитка?</string>
@@ -113,15 +113,45 @@
     <string name="have_you_eat">Ты покушал(а)?</string>
     <string name="Yes">Да</string>
     <string name="No">Нет</string>
-    <string name="save_to_diary">Сохранить в \nдневник?</string>
+    <string name="save_to_diary">Записать в дневник?</string>
     <string name="you_have">У тебя:</string>
     <string name="back">Назад</string>
     <string name="sober_time">Время отрезвления:</string>
     <string name="save">Сохранить</string>
-    <string name="per_mile">%1$.2f &#8240;</string>
+    <string name="per_mile">%1$.2f&#8240;</string>
     <string name="sober_hours">%1$.1f часа</string>
-    <string name="drink_result_time_info">%1$d мл \nКрепостью  %2$d %%</string>
+    <string name="drink_result_time_info">%1$d мл \nКрепостью  %2$d%%</string>
     <string name="to_menu">В меню</string>
     <string name="in_percent">В процентах</string>
     <string name="in_mls">В миллилитрах</string>
+    <string name="to_which_condition">До какого состояния?</string>
+    <string name="condition">Состояние:</string>
+    <string name="will_you_eat">Будешь закусывать?</string>
+    <string name="you_will_sober">Протрезвеешь через:</string>
+    <string name="you_will_have">У тебя будет:</string>
+    <string name="you_need_to_drink">Надо выпить:</string>
+
+    <string-array name="conditions">
+        <item>Согреться (0.2&#8240;)</item>
+        <item>Расслабиться (0.3&#8240;)</item>
+        <item>Веселье пошло (0.6&#8240;)</item>
+        <item>Танцуют все (1&#8240;)</item>
+        <item>Рубикон перейдён (2&#8240;)</item>
+        <item>Кран потёк (3&#8240;)</item>
+        <item>К праотцам (4&#8240;)</item>
+        <item>Вы труп (5&#8240;)</item>
+    </string-array>
+
+    <string-array name="conditions_scale"> <!--распарсить в нужный формат-->
+        <item>0.2</item>
+        <item>0.3</item>
+        <item>0.6</item>
+        <item>1.0</item>
+        <item>2.0</item>
+        <item>3.0</item>
+        <item>4.0</item>
+        <item>5.0</item>
+        <item>6.0</item>
+    </string-array>
+
 </resources>
