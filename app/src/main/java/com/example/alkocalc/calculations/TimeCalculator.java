@@ -39,6 +39,19 @@ public class TimeCalculator {
         this.soberTime = FormulaUtils.getSoberTime(this.c, this.g);
     }
 
+    public TimeCalculator(float c, float weight, boolean male,  boolean eaten, float percent) {
+        this.percent = percent;
+        this.c = c;
+        this.weight = weight;
+        this.male = male;
+        this.eaten = eaten;
+
+        this.r = (float)(male ? 0.7 : 0.6);
+        this.d = (float)(eaten ? 0.7 : 0.9);
+
+        this.volume = (int)Math.round((this.c * this.weight * this.r)/(this.d * 0.78 * this.percent));
+    }
+
     public float getA() {
         return a;
     }
