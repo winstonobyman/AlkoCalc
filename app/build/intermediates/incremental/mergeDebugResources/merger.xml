@@ -3907,7 +3907,7 @@
         <item>Кран потёк (3‰)</item>
         <item>К праотцам (4‰)</item>
         <item>Вы труп (5‰)</item>
-    </string-array><string name="will_you_eat">Будешь закусывать?</string><string name="you_will_have">У тебя будет:</string><string name="you_will_sober">Протрезвеешь через:</string><string name="you_need_to_drink">Надо выпить:</string></file><file path="C:\Users\Admin\AndroidStudioProjects\AlkoCalc\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </string-array><string name="will_you_eat">Будешь закусывать?</string><string name="you_will_have">У тебя будет:</string><string name="you_will_sober">Протрезвеешь через:</string><string name="you_need_to_drink">Надо выпить:</string><string name="sober_hours_digit">%1$d ч.</string><string name="sober_hours_minutes">%1$d ч. %2$d мин.</string><string name="sober_minutes_digit">%1$d мин.</string></file><file path="C:\Users\Admin\AndroidStudioProjects\AlkoCalc\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

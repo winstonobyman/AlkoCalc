@@ -1208,7 +1208,7 @@ id dimensions
 id direct
 id disableHome
 id drink_info
-id editText
+id editTextNote
 id edit_query
 id end
 id enterAlways
@@ -1581,6 +1581,9 @@ string search_menu_title
 string sex_M
 string sex_W
 string sober_hours
+string sober_hours_digit
+string sober_hours_minutes
+string sober_minutes_digit
 string sober_time
 string status_bar_notification_info_overflow
 string strength

@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.alkocalc.calculations.FormulaUtils;
 import com.example.alkocalc.calculations.TimeCalculator;
 
 public class DoseDrunkResult extends AppCompatActivity {
@@ -40,11 +41,20 @@ public class DoseDrunkResult extends AppCompatActivity {
 
         TimeCalculator timeCalculator = new TimeCalculator(c, weight, male, eaten, percent);
         int volume = timeCalculator.getVolume();
-        float hoursToSomber = timeCalculator.getSoberTime();
+        float hoursToSomber = FormulaUtils.round(timeCalculator.getSoberTime(), 1);
+        int[] convertedTimeArray = FormulaUtils.getHoursMinutes(hoursToSomber);
+        int hours = convertedTimeArray[0];
+        int minutes = convertedTimeArray[1];
 
         tvDrinkInfoOutput.setText( getString(R.string.drink_result_time_info, volume, strength));
         tvPerMileOutput.setText(conditions[conditionIndex]);
-        tvSoberTimeOutput.setText(getString(R.string.sober_hours, hoursToSomber));
+        if (hours == 0) {
+            tvSoberTimeOutput.setText(getString(R.string.sober_minutes_digit, minutes));
+        } else if (minutes == 0) {
+            tvSoberTimeOutput.setText(getString(R.string.sober_hours_digit, hours));
+        } else {
+            tvSoberTimeOutput.setText(getString(R.string.sober_hours_minutes, hours, minutes));
+        }
     }
 
     public void onBackClick (View view) {

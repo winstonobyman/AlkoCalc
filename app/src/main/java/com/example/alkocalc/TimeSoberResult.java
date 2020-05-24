@@ -30,6 +30,10 @@ public class TimeSoberResult extends AppCompatActivity {
 
         TimeCalculator timeCalculator = new TimeCalculator(percent, volume, eaten, weight, male);
         float hoursToSomber = FormulaUtils.round(timeCalculator.getSoberTime(), 1);
+        int[] convertedTimeArray = FormulaUtils.getHoursMinutes(hoursToSomber);
+        int hours = convertedTimeArray[0];
+        int minutes = convertedTimeArray[1];
+
         float ppm = FormulaUtils.round(timeCalculator.getC(), 2);
 
         TextView tvDrinkInfo = findViewById(R.id.drink_info);
@@ -37,7 +41,13 @@ public class TimeSoberResult extends AppCompatActivity {
         TextView tvPerMile = findViewById(R.id.per_mile);
 
         tvDrinkInfo.setText( getString(R.string.drink_result_time_info, volume, strength));
-        tvSoberTime.setText(getString(R.string.sober_hours, hoursToSomber));
+        if (hours == 0) {
+            tvSoberTime.setText(getString(R.string.sober_minutes_digit, minutes));
+        } else if (minutes == 0) {
+            tvSoberTime.setText(getString(R.string.sober_hours_digit, hours));
+        } else {
+            tvSoberTime.setText(getString(R.string.sober_hours_minutes, hours, minutes));
+        }
         tvPerMile.setText(getString(R.string.per_mile, ppm));
     }
 

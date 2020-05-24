@@ -120,6 +120,9 @@
     <string name="save">Сохранить</string>
     <string name="per_mile">%1$.2f&#8240;</string>
     <string name="sober_hours">%1$.1f часа</string>
+    <string name="sober_hours_digit">%1$d ч.</string>
+    <string name="sober_minutes_digit">%1$d мин.</string>
+    <string name="sober_hours_minutes">%1$d ч. %2$d мин.</string>
     <string name="drink_result_time_info">%1$d мл \nКрепостью  %2$d%%</string>
     <string name="to_menu">В меню</string>
     <string name="in_percent">В процентах</string>
