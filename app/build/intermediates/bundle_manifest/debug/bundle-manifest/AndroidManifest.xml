@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.alkocalc.DateDiary" />
         <activity android:name="com.example.alkocalc.DoseDrunkResult" />
         <activity android:name="com.example.alkocalc.DoseDrunk" />
         <activity android:name="com.example.alkocalc.TimeSoberResult" />

@@ -6,10 +6,17 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.alkocalc.calculations.FormulaUtils;
 import com.example.alkocalc.calculations.TimeCalculator;
+import com.example.alkocalc.dao.DiaryUtils;
+import com.example.alkocalc.entity.Record;
+
+import java.util.ArrayList;
+import java.util.Calendar;
 
 public class DoseDrunkResult extends AppCompatActivity {
 
@@ -58,6 +65,21 @@ public class DoseDrunkResult extends AppCompatActivity {
     }
 
     public void onBackClick (View view) {
+        RadioButton rbYesSomber = findViewById(R.id.rb_diary_yes2);
+
+        if (rbYesSomber.isChecked()) {
+            TextView tvDrinkInfo = findViewById(R.id.tv_drink_info_output);
+            String stringToSave = tvDrinkInfo.getText().toString();
+            Calendar dateToSave = Calendar.getInstance();
+            Record recordToSave = new Record(dateToSave, stringToSave);
+            ArrayList<Record> recordsList = DiaryUtils.loadRecordsList(this);
+            recordsList.add(recordToSave);
+            DiaryUtils.saveRecordsList(this, recordsList);
+            Toast toast = Toast.makeText(getApplicationContext(),
+                    "Запись добавлена!", Toast.LENGTH_SHORT);
+            toast.show();
+        }
+
         Intent intent = new Intent(this, ChooseFunction.class);
         startActivity(intent);
     }

@@ -162,7 +162,7 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/rb_yes"
+                android:id="@+id/rb_yes_sober"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@style/AppTheme.RadioButton"

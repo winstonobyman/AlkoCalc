@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import java.util.Date;
+
 public class ChooseFunction extends AppCompatActivity {
 
 
@@ -35,5 +37,8 @@ public class ChooseFunction extends AppCompatActivity {
         startActivity(new Intent(this, DoseDrunk.class));
     }
 
+    public void onDateDiaryClick(View view) {
+        startActivity(new Intent(this, DateDiary.class));
+    }
 
 }

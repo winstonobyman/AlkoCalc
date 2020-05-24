@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="3dp"
+    android:background="@color/colorMajorDarkBlue">
+
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@color/colorMajorDarkBlue">
+
+        <TextView
+            android:id="@+id/recordDate"
+            android:background="@drawable/bg_white_rect_pointy"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:gravity="center|left"
+            android:text="20.20.20"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/recordText"
+            android:background="@drawable/bg_white_rect_pointy"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:gravity="right"
+            android:textColor="@color/colorMajorDarkBlue"
+            android:text="description"
+            />
+    </TableRow>
+
+</TableLayout>

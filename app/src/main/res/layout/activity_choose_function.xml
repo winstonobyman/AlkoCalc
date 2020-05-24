@@ -33,6 +33,7 @@
     <ImageView
         android:id="@+id/imageButtonDiary"
         style="@style/AppTheme.ChooseIcon"
+        android:onClick="onDateDiaryClick"
         android:layout_marginTop="32dp"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
