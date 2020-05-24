@@ -1067,6 +1067,7 @@ drawable cell_shape
 drawable change_function_diary_button
 drawable choose_function_change_button
 drawable choose_function_dose_button
+drawable choose_function_info_button
 drawable choose_function_recipe_button
 drawable choose_function_search_button
 drawable choose_function_time_button

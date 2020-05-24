@@ -2,6 +2,10 @@ package com.example.alkocalc.calculations;
 
 public class FormulaUtils {
 
+    /**
+     *  Класс с математическими формулами для вычисления
+     * */
+
     public static int[] getHoursMinutes(float hours) {  // возвращает 0 - часы, 1 - минуты
         int[] result = new int[2];
         result[0] = (int)hours;

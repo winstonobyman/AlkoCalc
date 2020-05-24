@@ -4,6 +4,11 @@ import java.util.Objects;
 
 public class TimeCalculator {
 
+    /**
+     * Принимает разные параметры для двух конструкторов
+     * Затем можео получить параметры от разных компьютеров
+     */
+
     // принимает
     private float percent;
     private int volume;

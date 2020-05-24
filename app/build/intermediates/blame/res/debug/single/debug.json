@@ -1,15 +1,19 @@
 [
     {
-        "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_date_diary.xml.flat",
         "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\layout\\activity_date_diary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\drawable_choose_function_info_button.png.flat",
+        "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\drawable\\choose_function_info_button.png"
     },
     {
         "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bg_rasscehet_screen_vivod.png.flat",
@@ -20,16 +24,16 @@
         "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_first_screen.xml.flat",
-        "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\layout\\activity_first_screen.xml"
+        "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dose_drunk_result.xml.flat",
         "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\layout\\activity_dose_drunk_result.xml"
     },
     {
-        "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_first_screen.xml.flat",
+        "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\layout\\activity_first_screen.xml"
     },
     {
         "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bg_choose_function.png.flat",

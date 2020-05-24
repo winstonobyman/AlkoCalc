@@ -43,6 +43,7 @@
     <ImageView
         android:id="@+id/imageButtonSearch"
         style="@style/AppTheme.ChooseIcon"
+        android:onClick="onVineSearchClick"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:scaleType="fitCenter"
@@ -68,7 +69,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButtonDiary"
-        app:srcCompat="@drawable/choose_function_recipe_button" />
+        app:srcCompat="@drawable/choose_function_info_button" />
 
 
     <TextView

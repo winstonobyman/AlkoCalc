@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import com.example.alkocalc.calculations.FormulaUtils;
 import com.example.alkocalc.calculations.TimeCalculator;
-import com.example.alkocalc.dao.DiaryUtils;
+import com.example.alkocalc.prefsutils.DiaryUtils;
 import com.example.alkocalc.entity.Record;
 
 import java.util.ArrayList;
