@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Алкогольный калькулятор</string>
+    <string name="app_name">ALKO</string>
     <string name="title_activity_forth_screen">ForthScreen</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -135,7 +135,7 @@
     <string name="you_need_to_drink">Надо выпить:</string>
     <string name="creators">"Программа была создана командой разработчиков MVP в следующем составе:"</string>
     <string name="consistance">Михаил Дронский\n Иван Зайкин\n Павел Белитченко</string>
-    <string name="responsibility">Команда не несёт ответственности за употребление пользователями спиртных напитков.</string>
+    <string name="responsibility">Команда не несёт ответственности за употребление пользователями алкоголя.</string>
 
     <string-array name="conditions">
         <item>Согреться (0.2&#8240;)</item>

@@ -43,6 +43,9 @@
             android:background="@color/invisible"
             android:ems="10"
             android:layout_marginTop="24dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
             android:padding="2dp"
             android:text="@string/creators"
             android:inputType="textMultiLine"
@@ -55,8 +58,6 @@
             android:id="@+id/drink_info"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="16dp"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
             android:background="@drawable/bg_white_rect_bordered"
@@ -79,13 +80,16 @@
             android:background="@color/invisible"
             android:ems="10"
             android:layout_marginTop="32dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
             android:padding="2dp"
             android:text="@string/responsibility"
             android:inputType="textMultiLine"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="688dp" />
+            />
 
 
     </LinearLayout>

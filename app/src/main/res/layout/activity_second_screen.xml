@@ -8,18 +8,16 @@
     android:background="@mipmap/bg_change_screen">
 
     <TextView
-        android:id="@+id/tv_say_weight_sex"
+        android:id="@+id/textView"
         style="@style/AppTheme.TextView.Hello"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
         android:layout_marginTop="140dp"
-        android:layout_marginBottom="224dp"
-        app:layout_constraintBottom_toTopOf="@+id/et_weight"
+
+        android:text="@string/say_weight_sex"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/say_weight_sex" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
         android:id="@+id/r_sex"
@@ -28,7 +26,7 @@
         android:layout_marginBottom="28dp"
         android:orientation="horizontal"
         android:checkedButton="@id/r_sex_w"
-        app:layout_constraintBottom_toTopOf="@+id/b_next2"
+        app:layout_constraintBottom_toTopOf="@+id/b_next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_weight">
@@ -55,15 +53,16 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/b_next2"
+        android:id="@+id/b_next"
         style="@style/AppTheme.Button"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginBottom="45dp"
         android:onClick="onNext2Click"
-        android:text="@string/next"
+        android:text="@string/save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/r_sex" />
 
@@ -72,15 +71,16 @@
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:layout_marginBottom="43dp"
+        android:layout_marginTop="240dp"
         android:background="@drawable/bg_white_rect"
         android:ems="10"
-        android:textAlignment="center"
         android:hint="@string/input_name"
         android:inputType="numberDecimal"
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/r_sex"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_say_weight_sex" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

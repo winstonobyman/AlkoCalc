@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -15,6 +16,8 @@ import com.example.alkocalc.prefsutils.DiaryUtils;
 import java.util.Date;
 
 public class ChooseFunction extends AppCompatActivity {
+    private static int SPLASH_TIME_OUT = 3000;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +60,7 @@ public class ChooseFunction extends AppCompatActivity {
     }
 
     public void onInfoPanelClick(View view) {
-        startActivity(new Intent(this, DateDiary.class));
+        startActivity(new Intent(this, InfoPanel.class));
     }
 
     public void onVineSearchClick(View view) {

@@ -1173,6 +1173,7 @@ id always
 id async
 id auto
 id b_lets_go
+id b_next
 id b_next2
 id b_sc1_next
 id barrier
@@ -1399,7 +1400,6 @@ id tv_drink_info_output
 id tv_hello
 id tv_info1
 id tv_per_mile_output
-id tv_say_weight_sex
 id tv_sober_time_output
 id tv_we_need_info
 id tv_which_strength
@@ -1484,6 +1484,7 @@ layout activity_dose_drunk_result
 layout activity_first_screen
 layout activity_info_panel
 layout activity_second_screen
+layout activity_splash_screen
 layout activity_third_screen
 layout activity_time_sober
 layout activity_time_sober_result
@@ -1515,6 +1516,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+mipmap alko_logo
 mipmap bg_calendar_screen
 mipmap bg_change_screen
 mipmap bg_choose_function
@@ -1525,6 +1527,7 @@ mipmap bg_time_sober
 mipmap bg_time_sober_result
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap splash_hello_screen
 string No
 string Yes
 string abc_action_bar_home_description

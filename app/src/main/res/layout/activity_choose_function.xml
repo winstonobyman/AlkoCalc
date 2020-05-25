@@ -65,6 +65,7 @@
     <ImageView
         android:id="@+id/imageButtonRecipe"
         style="@style/AppTheme.ChooseIcon"
+        android:onClick="onInfoPanelClick"
         android:layout_marginTop="20dp"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
