@@ -93,7 +93,7 @@
     <string name="action_settings">"Settings"</string>
     <string name="hello">"Привет!"</string>
     <string name="we_need_info">"Нам нужно\nузнать о тебе \nпобольше"</string>
-    <string name="next">Далее</string>
+    <string name="next">"Далее"</string>
     <string name="say_weight_sex">"Скажи свой вес\nи пол"</string>
     <string name="you_can_use">"Теперь ты можешь \n перейти к\nкалькулятору"</string>
     <string name="lets_go">Поехали</string>
@@ -133,6 +133,9 @@
     <string name="you_will_sober">Протрезвеешь через:</string>
     <string name="you_will_have">У тебя будет:</string>
     <string name="you_need_to_drink">Надо выпить:</string>
+    <string name="creators">"Программа была создана командой разработчиков MVP в следующем составе:"</string>
+    <string name="consistance">Михаил Дронский\n Иван Зайкин\n Павел Белитченко</string>
+    <string name="responsibility">Команда не несёт ответственности за употребление пользователями спиртных напитков.</string>
 
     <string-array name="conditions">
         <item>Согреться (0.2&#8240;)</item>

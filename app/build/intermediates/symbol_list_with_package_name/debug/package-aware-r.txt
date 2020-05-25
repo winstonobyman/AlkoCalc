@@ -1377,6 +1377,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1393,10 +1394,10 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
-id tv_change_weight_sex_change
 id tv_condition
 id tv_drink_info_output
 id tv_hello
+id tv_info1
 id tv_per_mile_output
 id tv_say_weight_sex
 id tv_sober_time_output
@@ -1481,6 +1482,7 @@ layout activity_date_diary
 layout activity_dose_drunk
 layout activity_dose_drunk_result
 layout activity_first_screen
+layout activity_info_panel
 layout activity_second_screen
 layout activity_third_screen
 layout activity_time_sober
@@ -1563,6 +1565,8 @@ string change_weight_sex
 string character_counter_content_description
 string character_counter_pattern
 string condition
+string consistance
+string creators
 string done
 string drink_result_time_info
 string fab_transformation_scrim_behavior
@@ -1585,6 +1589,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string per_mile
+string responsibility
 string save
 string save_to_diary
 string say_weight_sex

@@ -132,6 +132,10 @@
         "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\mipmap-xhdpi\\bg_calendar_screen.png"
     },
     {
+        "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_info_panel.xml.flat",
+        "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\layout\\activity_info_panel.xml"
+    },
+    {
         "merged": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\font_type_mates_cera_round_pro_bold.otf.flat",
         "source": "C:\\Users\\Ivandroid\\AndroidStudioProjects\\AlkoCalc\\app\\src\\main\\res\\font\\type_mates_cera_round_pro_bold.otf"
     },
