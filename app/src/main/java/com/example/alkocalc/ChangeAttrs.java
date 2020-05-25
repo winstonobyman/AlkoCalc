@@ -36,8 +36,8 @@ public class ChangeAttrs extends AppCompatActivity {
     }
 
     public void onBackClick(View view)  {
-        RadioButton isMaleRb = (RadioButton) findViewById(R.id.r_sex_m2);
-        EditText ed = (EditText) findViewById(R.id.et_weight2);
+        RadioButton isMaleRb = findViewById(R.id.r_sex_m2);
+        EditText ed = findViewById(R.id.et_weight2);
         boolean isMale = false;
         float weight;
 

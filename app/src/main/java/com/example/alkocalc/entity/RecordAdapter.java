@@ -17,6 +17,10 @@ import java.util.List;
 
 public class RecordAdapter extends ArrayAdapter<Record> {
 
+    /**
+     * Кастомный адаптер для ListView, отображает дату и число выпитого
+     */
+
     private int resourceLayout;
     private Context mContext;
 

@@ -13,6 +13,11 @@ import java.util.ArrayList;
 
 public class DiaryUtils {
 
+    /**
+     * Класс с методами для работы со списком записей (чтобы постоянно не копипастить) и запиской
+     * @param context
+     * @param recordsList
+     */
 
     public static void saveRecordsList(Context context, ArrayList<Record> recordsList) {
         SharedPreferences prefs = context.getSharedPreferences("prefs", Context.MODE_PRIVATE);

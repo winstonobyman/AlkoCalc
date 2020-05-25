@@ -6,6 +6,10 @@ import java.util.Objects;
 
 public class Record implements Serializable { // class added to contain data
 
+    /**
+     * Класс записи - поле даты и записи, сколько было выпито
+     */
+
     private Calendar recordDate;
     private String recordText;
 
