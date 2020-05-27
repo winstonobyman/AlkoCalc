@@ -10,7 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.alkocalc.prefsutils.DiaryUtils;
+import com.example.alkocalc.utils.DiaryUtils;
 import com.example.alkocalc.entity.Record;
 import com.example.alkocalc.entity.RecordAdapter;
 
