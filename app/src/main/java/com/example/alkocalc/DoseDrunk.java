@@ -29,7 +29,8 @@ public class DoseDrunk extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spCondition.setAdapter(adapter);
 
-        AdapterView.OnItemSelectedListener itemSelectedListener = new AdapterView.OnItemSelectedListener() {
+        AdapterView.OnItemSelectedListener itemSelectedListener =
+                new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 conditionIndex = position;

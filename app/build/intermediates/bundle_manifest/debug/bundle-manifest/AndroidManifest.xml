@@ -8,8 +8,6 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="29" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -22,7 +20,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.alkocalc.WineSearch" />
+        <activity android:name="com.example.alkocalc.RandomShit" />
+        <activity android:name="com.example.alkocalc.SplashScreen" />
         <activity android:name="com.example.alkocalc.InfoPanel" />
         <activity android:name="com.example.alkocalc.DateDiary" />
         <activity android:name="com.example.alkocalc.DoseDrunkResult" />

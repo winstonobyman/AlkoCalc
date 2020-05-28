@@ -1482,6 +1482,7 @@ layout activity_dose_drunk
 layout activity_dose_drunk_result
 layout activity_first_screen
 layout activity_info_panel
+layout activity_random_shit
 layout activity_second_screen
 layout activity_third_screen
 layout activity_time_sober

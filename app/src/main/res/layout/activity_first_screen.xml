@@ -41,6 +41,7 @@
         android:background="@drawable/round_rect_shape"
         android:onClick="onClickBsc1Next"
         android:text="@string/next"
+        android:fontFamily="@font/type_mates_cera_round_pro_medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

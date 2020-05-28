@@ -11,7 +11,7 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WineSearch"></activity>
+        <activity android:name=".SplashScreen" />
         <activity android:name=".InfoPanel" />
         <activity android:name=".DateDiary" />
         <activity android:name=".DoseDrunkResult" />
@@ -30,7 +30,5 @@
             </intent-filter>
         </activity>
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>
