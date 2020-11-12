@@ -1,6 +1,6 @@
 language: android
 jdk: oraclejdk8
-dist: trusty
+#dist: trusty
 env:
   global:
     - ANDROID_API_LEVEL=24
@@ -15,6 +15,8 @@ android:
     - build-tools-$ANDROID_BUILD_TOOLS_VERSION
     - android-$ANDROID_API_LEVEL
     - sys-img-x86-android-$ANDROID_API_LEVEL
+    - sys-img-armeabi-v7a-android-17
+
 
 before_install:
   - chmod +x gradlew
