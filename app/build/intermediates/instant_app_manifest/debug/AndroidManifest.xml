@@ -21,7 +21,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.alkocalc.RandomShit" />
         <activity android:name="com.example.alkocalc.SplashScreen" />
         <activity android:name="com.example.alkocalc.InfoPanel" />
         <activity android:name="com.example.alkocalc.DateDiary" />
