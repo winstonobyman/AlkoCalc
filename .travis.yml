@@ -16,18 +16,13 @@ android:
     - android-$ANDROID_API_LEVEL
     - sys-img-x86-android-$ANDROID_API_LEVEL
 #    - sys-img-armeabi-v7a-android-17
-
 script:
   - ./gradlew clean build
-#  - ./gradlew test
-
-
+  - ./gradlew test
 before_install:
   - chmod +x gradlew
   - yes | sdkmanager "platforms;android-29"
 #  - yes | sdkmanager “build-tools;29.0.3”
-
-
 licenses:
   - 'android-sdk-preview-license-.+'
   - 'android-sdk-license-.+'
