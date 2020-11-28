@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Admin\\Desktop\\alko\\AlkoCalc\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\Desktop\\alko\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Admin\\Desktop\\alko\\AlkoCalc\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin\\Desktop\\alko\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\font_type_mates_cera_round_pro_regular.otf.flat",
         "source": "C:\\Users\\Admin\\Desktop\\alko\\AlkoCalc\\app\\src\\main\\res\\font\\type_mates_cera_round_pro_regular.otf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Desktop\\alko\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\Desktop\\alko\\AlkoCalc\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Desktop\\alko\\AlkoCalc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",

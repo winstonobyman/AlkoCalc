@@ -84,10 +84,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ad
 		ADDED from C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:12:9-40
-activity#com.example.alkocalc.SplashScreen
-ADDED from C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:13:9-50
+activity#com.example.alkocalc.WineSearch
+ADDED from C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:13:9-48
 	android:name
-		ADDED from C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:13:19-45
 activity#com.example.alkocalc.InfoPanel
 ADDED from C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:14:9-47
 	android:name

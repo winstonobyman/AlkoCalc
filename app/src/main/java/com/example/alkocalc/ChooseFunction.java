@@ -55,11 +55,7 @@ public class ChooseFunction extends AppCompatActivity {
         startActivity(new Intent(this, DateDiary.class));
     }
 
-    public void onInfoPanelClick(View view) {
-        startActivity(new Intent(this, InfoPanel.class));
-    }
+    public void onInfoPanelClick(View view) { startActivity(new Intent(this, InfoPanel.class)); }
 
-    public void onVineSearchClick(View view) {
-        startActivity(new Intent(this, WineSearch.class));
-    }
+    public void onWineSearchClick(View view) { startActivity(new Intent(this, WineSearch.class)); }
 }
