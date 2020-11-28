@@ -31,9 +31,9 @@
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
 22-->C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:12:9-40
-23        <activity android:name="com.example.alkocalc.SplashScreen" />
-23-->C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:13:9-50
-23-->C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:13:19-47
+23        <activity android:name="com.example.alkocalc.WineSearch" />
+23-->C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:13:9-48
+23-->C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:13:19-45
 24        <activity android:name="com.example.alkocalc.InfoPanel" />
 24-->C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:14:9-47
 24-->C:\Users\Admin\Desktop\alko\AlkoCalc\app\src\main\AndroidManifest.xml:14:19-44

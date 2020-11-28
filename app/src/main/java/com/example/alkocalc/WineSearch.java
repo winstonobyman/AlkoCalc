@@ -40,7 +40,7 @@ public class WineSearch extends AppCompatActivity {
             // настройка масштабирования
             getWebView().getSettings().setSupportZoom(true);
             getWebView().getSettings().setBuiltInZoomControls(true);
-            getWebView().loadUrl("https://www.vivinod.com/");
+            getWebView().loadUrl("https://www.vivino.com/");
             return(result);
         }
         @Override

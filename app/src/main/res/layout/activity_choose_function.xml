@@ -43,9 +43,9 @@
     <ImageView
         android:id="@+id/imageButtonSearch"
         style="@style/AppTheme.ChooseIcon"
-        android:onClick="onVineSearchClick"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
+        android:onClick="onWineSearchClick"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButtonTime"
