@@ -18,9 +18,9 @@
         <activity android:name=".TimeSoberResult" />
         <activity android:name=".TimeSober" />
         <activity android:name=".ChangeAttrs" />
-        <activity android:name=".FirstScreen" />
-        <activity android:name=".ThirdScreen" />
-        <activity android:name=".SecondScreen" />
+        <activity android:name=".welcome_screens.FirstScreen" />
+        <activity android:name=".welcome_screens.ThirdScreen" />
+        <activity android:name=".welcome_screens.SecondScreen" />
         <activity android:name=".ChooseFunction">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -6,12 +6,10 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.example.alkocalc.utils.DiaryUtils;
+import com.example.alkocalc.welcome_screens.FirstScreen;
 
 public class ChooseFunction extends AppCompatActivity {
     private static int SPLASH_TIME_OUT = 3000;

@@ -18,6 +18,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.alkocalc.SplashScreen" />
         <activity android:name="com.example.alkocalc.InfoPanel" />
@@ -27,9 +28,9 @@
         <activity android:name="com.example.alkocalc.TimeSoberResult" />
         <activity android:name="com.example.alkocalc.TimeSober" />
         <activity android:name="com.example.alkocalc.ChangeAttrs" />
-        <activity android:name="com.example.alkocalc.FirstScreen" />
-        <activity android:name="com.example.alkocalc.ThirdScreen" />
-        <activity android:name="com.example.alkocalc.SecondScreen" />
+        <activity android:name="com.example.alkocalc.welcome_screens.FirstScreen" />
+        <activity android:name="com.example.alkocalc.welcome_screens.ThirdScreen" />
+        <activity android:name="com.example.alkocalc.welcome_screens.SecondScreen" />
         <activity android:name="com.example.alkocalc.ChooseFunction" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

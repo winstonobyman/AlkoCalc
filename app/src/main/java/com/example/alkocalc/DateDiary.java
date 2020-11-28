@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import com.example.alkocalc.utils.DiaryUtils;
 import com.example.alkocalc.entity.Record;
-import com.example.alkocalc.entity.RecordAdapter;
+import com.example.alkocalc.adapter.RecordAdapter;
 
 import java.util.ArrayList;
 

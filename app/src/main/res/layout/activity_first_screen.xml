@@ -6,7 +6,7 @@
     android:background="@mipmap/bg_first_screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstScreen">
+    tools:context=".welcome_screens.FirstScreen">
 
     <TextView
         android:id="@+id/tv_hello"
