@@ -19,7 +19,7 @@ import java.util.List;
 public class RecordAdapter extends ArrayAdapter<Record> {
 
     /**
-     * Кастомный адаптер для ListView, отображает дату и число выпитого
+     * Кастомный адаптер для ListView, отображает дату и число выпитого алкоголя
      */
 
     private int resourceLayout;
