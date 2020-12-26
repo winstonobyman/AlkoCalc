@@ -10,6 +10,9 @@ import android.view.View;
 import com.example.alkocalc.ChooseFunction;
 import com.example.alkocalc.R;
 
+/**
+ * Класс третьего приветственного экрана
+ */
 public class ThirdScreen extends AppCompatActivity {
 
     @Override

@@ -4,12 +4,15 @@ import java.io.Serializable;
 import java.util.Calendar;
 import java.util.Objects;
 
-public class Record implements Serializable { // class added to contain data
+/**
+ * Класс записи - поле даты и записи, сколько было выпито
+ */
+
+public class Record implements Serializable {
 
     /**
-     * Класс записи - поле даты и записи, сколько было выпито
+     * Дата и текст для записи
      */
-
     private Calendar recordDate;
     private String recordText;
 

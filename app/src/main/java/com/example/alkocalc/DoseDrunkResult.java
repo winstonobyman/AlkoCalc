@@ -17,7 +17,9 @@ import com.example.alkocalc.entity.Record;
 
 import java.util.ArrayList;
 import java.util.Calendar;
-
+/**
+ * Класс экрана результата вычисления количества выпитого
+ */
 public class DoseDrunkResult extends AppCompatActivity {
 
     @Override

@@ -11,14 +11,17 @@ import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
+/**
+ * Класс с методами для работы со списком записей и запиской
+ */
+
 public class DiaryUtils {
 
     /**
-     * Класс с методами для работы со списком записей (чтобы постоянно не копипастить) и запиской
-     * @param context
-     * @param recordsList
+     * Метод для сохранения списка записей в SharedPreferences
+     * @param context контекст
+     * @param recordsList список записей
      */
-
     public static void saveRecordsList(Context context, ArrayList<Record> recordsList) {
         SharedPreferences prefs = context.getSharedPreferences("diaryPrefs", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
@@ -28,6 +31,10 @@ public class DiaryUtils {
         editor.apply();
     }
 
+    /**
+     * Метод для загрузки списка записей из SharedPreferences
+     * @param context контекст
+     */
     public static ArrayList<Record> loadRecordsList(Context context) {
         SharedPreferences prefs = context.getSharedPreferences("diaryPrefs", Context.MODE_PRIVATE);
         Gson gson = new Gson();
@@ -41,6 +48,11 @@ public class DiaryUtils {
         return recordsList;
     }
 
+    /**
+     * Метод для сохранения записки с главного экрана
+     * @param context контекст
+     * @param editText элемент, текст которого сохранения
+     */
     public static void saveEditTextNote (Context context, EditText editText) {
         SharedPreferences prefs = context.getSharedPreferences("notePref", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
@@ -49,6 +61,11 @@ public class DiaryUtils {
         editor.apply();
     }
 
+    /**
+     * Метод для загрузки записки с главного экрана
+     * @param context контекст
+     * @param editText элемент, в который загружается записка
+     */
     public static void loadEditTextNote (Context context, EditText editText) {
         SharedPreferences prefs = context.getSharedPreferences("notePref", Context.MODE_PRIVATE);
         String note = prefs.getString("note", "");

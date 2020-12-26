@@ -13,7 +13,9 @@ import android.widget.Toast;
 
 import com.example.alkocalc.R;
 import com.example.alkocalc.TimeSoberResult;
-
+/**
+ * Класс экрана  вычисления времени отрезвления
+ */
 public class TimeSober extends AppCompatActivity {
 
     @Override

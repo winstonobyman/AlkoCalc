@@ -2,6 +2,9 @@ package com.example.alkocalc.calculations;
 
 import com.example.alkocalc.utils.FormulaUtils;
 
+/**
+ * Служебный класс для вычислений времени отрезвления и дозы напитка
+ */
 public class TimeCalculator {
 
     /**
@@ -27,7 +30,14 @@ public class TimeCalculator {
     float c;           // концентрация промилле в крови
     float soberTime;   // время отрезвления в часах
 
-
+    /**
+     * Конструктор для вычисления времени
+     * @param percent крепость напитка
+     * @param volume объем выпитого
+     * @param eaten закусывал ли человек
+     * @param weight вес человека
+     * @param male пол человека
+     */
     public TimeCalculator(float percent, int volume, boolean eaten, float weight, boolean male) {
         this.percent = percent;
         this.volume = volume;
@@ -44,6 +54,14 @@ public class TimeCalculator {
         this.soberTime = FormulaUtils.getSoberTime(this.c, this.g);
     }
 
+    /**
+     * Конструктор для получения желаемой степени опьянения
+     * @param c параметр с
+     * @param weight вес
+     * @param male пол
+     * @param eaten закусывал ли
+     * @param percent крепость напитка
+     */
     public TimeCalculator(float c, float weight, boolean male,  boolean eaten, float percent) {
         this.percent = percent;
         this.c = c;

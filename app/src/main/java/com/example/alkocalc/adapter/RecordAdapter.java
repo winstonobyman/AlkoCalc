@@ -24,13 +24,18 @@ public class RecordAdapter extends ArrayAdapter<Record> {
 
     private int resourceLayout;
     private Context mContext;
-
+    /**
+     * Конструктор адаптера
+     * */
     public RecordAdapter(Context context, int resource, List<Record> items) {
         super(context, resource, items);
         this.resourceLayout = resource;
         this.mContext = context;
     }
 
+    /**
+     * Метод для получения отображения адаптера
+     * */
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 

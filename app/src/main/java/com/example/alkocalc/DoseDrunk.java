@@ -12,7 +12,9 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.Toast;
-
+/**
+ * Класс экрана вычисления количества выпитого
+ */
 public class DoseDrunk extends AppCompatActivity {
 
     int conditionIndex;

@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
+/**
+ * Класс экрана информации
+ */
 public class InfoPanel extends AppCompatActivity {
 
     @Override

@@ -9,7 +9,9 @@ import android.view.ViewGroup;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewFragment;
-
+/**
+ * Класс экрана поиска вин
+ */
 public class WineSearch extends AppCompatActivity {
 
     @Override

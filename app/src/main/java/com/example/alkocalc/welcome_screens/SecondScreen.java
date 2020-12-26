@@ -13,6 +13,9 @@ import android.widget.Toast;
 
 import com.example.alkocalc.R;
 
+/**
+ * Класс второго экрана
+ */
 public class SecondScreen extends AppCompatActivity {
 
     @Override
@@ -21,6 +24,10 @@ public class SecondScreen extends AppCompatActivity {
         setContentView(R.layout.activity_second_screen);
     }
 
+    /**
+     * Переход на следующую страницу с ограничениями на ввод
+     * @param view View
+     */
     public void onNext2Click(View view) {
         RadioButton isMaleRb = (RadioButton) findViewById(R.id.r_sex_m);
         EditText ed = (EditText) findViewById(R.id.et_weight);

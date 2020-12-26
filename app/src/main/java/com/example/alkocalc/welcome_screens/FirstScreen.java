@@ -8,6 +8,9 @@ import android.view.View;
 
 import com.example.alkocalc.R;
 
+/**
+ * Класс первого экрана
+ */
 public class FirstScreen extends AppCompatActivity {
 
     @Override

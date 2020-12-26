@@ -11,6 +11,9 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+/**
+ * Класс экрана имзенения настроек
+ */
 public class ChangeAttrs extends AppCompatActivity {
 
     @Override

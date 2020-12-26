@@ -17,7 +17,9 @@ import com.example.alkocalc.entity.Record;
 
 import java.util.ArrayList;
 import java.util.Calendar;
-
+/**
+ * Класс экрана результата вычисления времени отрезвления
+ */
 public class TimeSoberResult extends AppCompatActivity {
 
 

@@ -16,6 +16,9 @@ import com.example.alkocalc.adapter.RecordAdapter;
 
 import java.util.ArrayList;
 
+/**
+ * Класс экрана дневника
+ */
 public class DateDiary extends AppCompatActivity {
 
     ArrayList<Record> recordsList;
